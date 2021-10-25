@@ -1,0 +1,46 @@
+.flexGridItem {
+    width: 320px;
+    margin: 10px;
+}
+
+.flexGridItem img {
+    width: 320px;
+    height: 180px;
+}
+
+.cardHeader {
+    display: flex;
+}
+
+.title {
+    display: -webkit-box;
+    width: 280px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+}
+
+.dropdownContainer {
+    display: block;
+}
+
+.flexGridItem h5 {
+    color: rgb(128, 128, 128);
+}
+
+.dropdownToggle {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdownItem {
+    color: white;
+}
+
+.dropdownItem:hover {
+    background-color: #333;
+    color: white;
+}

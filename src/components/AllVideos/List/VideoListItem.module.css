@@ -1,0 +1,36 @@
+.dropdownToggle {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdownItem {
+    color: white;
+}
+
+.dropdownItem:hover {
+    background-color: #333;
+    color: white;
+}
+.flexListItem {
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+.flexListItem img {
+    width: 320px;
+    height: 180px;
+}
+
+.flexListItem div:first-child {
+    margin-right: 30px;
+}
+
+.flexListItem div:nth-child(2) {
+    padding: 10px 0;
+}
+
+.flexListItem h5 {
+    color: rgb(128, 128, 128);
+}

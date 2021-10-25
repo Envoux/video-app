@@ -1,0 +1,12 @@
+.flexGridContainer {
+    display: flex;
+    width: 680px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1040px) {
+    .flexGridContainer {
+        width: 1020px;
+    }
+}
